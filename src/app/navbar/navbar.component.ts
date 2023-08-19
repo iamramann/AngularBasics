@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+  siteName: string = 'eShopping';
+  navbarItems:Array<string> = ['HOME', 'ABOUT', 'CONTACT', 'CART', 'PRODUCTS']
 }
