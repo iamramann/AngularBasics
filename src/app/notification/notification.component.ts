@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-notification',
   template: `
-      <div class="notification-div">
+      <div class="alert alert-success text-center">
         <p>This website uses cookies to provide better user experience.</p>
       </div>  
   `,
